@@ -1,0 +1,2 @@
+https://jsonplaceholder.typicode.com/photos
+https://sbolten.notion.site/4b93b89c85004df4a61c5eba6a550dd8
