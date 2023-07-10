@@ -24,7 +24,6 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 h1, h2, h3, h4, h5, h6, p {
   padding: 0;
   margin: 0;
@@ -37,7 +36,14 @@ html {
 }
 body {
     margin: 0;
-    font-family: 'Inter', sans-serif;;
-    font-weight: 400;
+    font-family: Inter;
+    font-style: normal;
+}
+.line {
+  margin-bottom: 150px;
+  width: auto;
+  border: none;
+  background-color: rgb(233, 233, 233);
+  height: 1px;
 }
 </style>

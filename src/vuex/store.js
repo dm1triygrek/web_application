@@ -18,7 +18,7 @@ let store = new Vuex.Store(
         },
         actions: {
             GET_PHOTOS_FROM_API({commit}) {
-                return axios('https://jsonplaceholder.typicode.com/photos', {
+                return axios('https://jsonplaceholder.typicode.com/photos/', {
                     method: "GET"
                 })
                 .then((photos) => {

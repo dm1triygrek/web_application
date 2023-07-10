@@ -26,11 +26,10 @@
 
 <style>
     .footer__info {
+        margin-top: 24px;
         margin-bottom: 24px;
         margin-left: 125px;
         font-size: 16px;
-        font-family: Inter;
-        font-style: normal;
         font-weight: 400;
         line-height: 24px;
         color: #667085;

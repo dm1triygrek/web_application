@@ -1,8 +1,9 @@
 <template>
     <div class="main">
        <GridItem
-            v-for="photo in PHOTOS"
+            v-for="photo in PHOTOS" 
             :key="photo.id"
+            v-if="photo.id<=24"
             v-bind:photo_data="photo"
        />
     </div>
@@ -26,6 +27,7 @@
             ...mapGetters([
                 'PHOTOS'
             ]),
+            
         },
         methods: {
             ...mapActions([
@@ -49,5 +51,8 @@
     .main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 52px;
+        padding-left: 125px;
+        padding-right: 125px;
     }
 </style>
